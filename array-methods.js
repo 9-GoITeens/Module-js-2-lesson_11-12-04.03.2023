@@ -26,7 +26,51 @@
 // Класика, Рок-н-ролл
 // Реп, Регги, Класика, Рок-н-ролл
 
+// const styles = ["«Джаз»", "«Блюз»"];
+// styles.push("Рок-н-ролл");
+// styles.splice(1, 1, "Класика", "Сальсо");
+// styles[1] = "Класика";
+// styles[2] = "Сальсо";
+// styles[3] = "Рок-н-ролл";
+// console.log(styles);
+
+// const deleiteStyles = styles.shift();
+// // console.log("Видалений елемент", deleiteStyles);
+// styles.push(deleiteStyles);
+// styles.shift();
+// styles.unshift("Реп", "Реггі");
+// console.log(styles);
 // .....................
+
+const roles = ["user", "tester", "admin"];
+// console.log(roles[1]);
+// console.log(roles[0]);
+// console.log(roles[5]);
+// console.log(roles.length);
+// console.table(roles);
+
+// console.log(roles[-1]);
+// const lastIndex = roles.length - 1;
+// console.log(roles[lastIndex]);
+// roles.pop();
+// console.log(roles);
+// roles.push("support");
+// console.log(roles);
+// roles.shift();
+// console.log(roles);
+// roles.unshift("manager");
+// console.log(roles);
+// roles.splice(2, 3);
+// console.log(roles);
+// roles.splice(2, 1, "user2");
+// roles.splice(2, 0, "user2");
+// console.log(roles);
+// const newArr = roles.slice();
+// console.log("newArr", newArr);
+// console.log(roles === newArr);
+// console.log(roles.includes("fkgh"));
+
+// .............
 
 // Задача
 // Перевірити чи наша строка являється – паліндромом.
